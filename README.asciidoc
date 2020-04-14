@@ -1,7 +1,7 @@
-= About Neo4j documentation
+= About ONgDB documentation
 
-This repository contains tools and tests for proving and generating documentation for https://github.com/neo4j/neo4j/[Neo4j].
+This repository contains tools and tests for proving and generating documentation for https://github.com/graphfoundation/ongdb/[ONgDB].
 
 All docs sources are maintained in AsciiDoc format.
 The primary output of building the projects kept here are artifacts (JARs) containing docs sources, code examples, and some scripts and images.
-These are processed downstream with custom tools, Asciidoctor and XSLT to produce the library of documentation available at https://neo4j.com/docs/.
+These are processed downstream with custom tools, Asciidoctor and XSLT to produce the library of documentation available at https://ongdb.graphfoundation.org/docs/.
