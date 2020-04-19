@@ -65,7 +65,7 @@
 
 
 
-        <!-- neo4j-cypher -->
+        <!-- ongdb-cypher -->
 
         <dependency>
             <groupId>org.graphfoundation.ongdb.community</groupId>

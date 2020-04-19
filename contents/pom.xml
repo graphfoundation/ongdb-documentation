@@ -313,7 +313,7 @@
                             <excludes>META-INF,META-INF/**</excludes>
                             <type>jar</type>
                             <outputDirectory>${outputDir.test-sources}</outputDirectory>
-                            <includeArtifactIds>neo4j-cypher-docs,neo4j-examples,neo4j-harness-test,neo4j-harness-enterprise-test,neo4j-server-docs,neo4j-lucene-index-docs,neo4j-backup-docs,neo4j-kernel-docs</includeArtifactIds>
+                            <includeArtifactIds>ongdb-cypher-docs,ongdb-examples,ongdb-harness-test,ongdb-harness-enterprise-test,ongdb-server-docs,ongdb-lucene-index-docs,ongdb-backup-docs,ongdb-kernel-docs</includeArtifactIds>
                         </configuration>
                     </execution>
                     <execution>
@@ -331,7 +331,7 @@
                             <excludes>META-INF,META-INF/**</excludes>
                             <type>jar</type>
                             <outputDirectory>${outputDir.sources}</outputDirectory>
-                            <includeArtifactIds>neo4j-examples,neo4j-server-examples,neo4j-cypher-docs</includeArtifactIds>
+                            <includeArtifactIds>ongdb-examples,ongdb-server-examples,ongdb-cypher-docs</includeArtifactIds>
                         </configuration>
                     </execution>
                 </executions>

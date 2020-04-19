@@ -75,7 +75,7 @@
             </exclusions>
         </dependency>
 
-        <!-- neo4j-documentation -->
+        <!-- ongdb-documentation -->
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>test-framework-enterprise</artifactId>
@@ -105,7 +105,7 @@
             <type>test-jar</type>
         </dependency>
 
-        <!-- neo4j-cypher -->
+        <!-- ongdb-cypher -->
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cypher</artifactId>

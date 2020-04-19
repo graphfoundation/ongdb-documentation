@@ -10,6 +10,8 @@
     </parent>
 
     <artifactId>test-framework-enterprise</artifactId>
+    <name>ONgDB - Test Framework</name>
+    <description>ONgDB test framework.</description>
 
     <dependencies>
         <dependency>

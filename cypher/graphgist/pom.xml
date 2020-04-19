@@ -26,7 +26,7 @@
             <version>${scala.version}</version>
         </dependency>
 
-        <!-- neo4j-documentation -->
+        <!-- ongdb-documentation -->
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>test-framework-enterprise</artifactId>
