@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.neo4j.doc</groupId>
+    <groupId>org.graphfoundation.ongdb.doc</groupId>
     <artifactId>neo4j-manual-parent</artifactId>
     <version>3.6.0-SNAPSHOT</version>
 
@@ -219,7 +219,7 @@
                     </configuration>
                     <dependencies>
                         <dependency>
-                            <groupId>org.neo4j.build</groupId>
+                            <groupId>org.graphfoundation.ongdb.build</groupId>
                             <artifactId>build-resources</artifactId>
                             <version>${project.version}</version>
                         </dependency>

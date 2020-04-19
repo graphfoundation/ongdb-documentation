@@ -29,7 +29,7 @@ This is how to execute it from a Maven 'pom.xml' file:
   <version>1.2.1</version>
   <dependencies>
     <dependency>
-      <groupId>org.neo4j.doc</groupId>
+      <groupId>org.graphfoundation.ongdb.doc</groupId>
       <artifactId>cypher-executor</artifactId>
       <version>0.1-SNAPSHOT</version>
     </dependency>
@@ -45,7 +45,7 @@ This is how to execute it from a Maven 'pom.xml' file:
         <includeProjectDependencies>false</includeProjectDependencies>
         <includePluginDependencies>true</includePluginDependencies>
         <executableDependency>
-          <groupId>org.neo4j.doc</groupId>
+          <groupId>org.graphfoundation.ongdb.doc</groupId>
           <artifactId>cypher-executor</artifactId>
         </executableDependency>
         <mainClass>org.neo4j.doc.cypherexecutor.Main</mainClass>

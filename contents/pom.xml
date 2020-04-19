@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.neo4j.doc</groupId>
+        <groupId>org.graphfoundation.ongdb.doc</groupId>
         <artifactId>neo4j-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
@@ -34,161 +34,161 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-ha-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-metrics-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-backup-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-lucene-index-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-lucene-index-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-kernel-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-kernel-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-cypher-docs</artifactId>
             <version>${project.version}</version>
             <classifier>sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-cypher-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-cypher-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.examples</groupId>
+            <groupId>org.graphfoundation.ongdb.examples</groupId>
             <artifactId>neo4j-examples</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.examples</groupId>
+            <groupId>org.graphfoundation.ongdb.examples</groupId>
             <artifactId>neo4j-examples</artifactId>
             <version>${project.version}</version>
             <classifier>sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.examples</groupId>
+            <groupId>org.graphfoundation.ongdb.examples</groupId>
             <artifactId>neo4j-examples</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-server-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-server-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.test</groupId>
+            <groupId>org.graphfoundation.ongdb.test</groupId>
             <artifactId>neo4j-harness-test</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.test</groupId>
+            <groupId>org.graphfoundation.ongdb.test</groupId>
             <artifactId>neo4j-harness-enterprise-test</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.examples</groupId>
+            <groupId>org.graphfoundation.ongdb.examples</groupId>
             <artifactId>neo4j-server-examples</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.examples</groupId>
+            <groupId>org.graphfoundation.ongdb.examples</groupId>
             <artifactId>neo4j-server-examples</artifactId>
             <version>${project.version}</version>
             <classifier>sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-import-tool-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-config-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>procedure-documentation</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>jmx-documentation</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>

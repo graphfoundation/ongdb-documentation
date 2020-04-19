@@ -4,13 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>org.neo4j.doc</groupId>
+        <groupId>org.graphfoundation.ongdb.doc</groupId>
         <artifactId>neo4j-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <groupId>org.neo4j.examples</groupId>
+    <groupId>org.graphfoundation.ongdb.examples</groupId>
     <artifactId>neo4j-examples</artifactId>
     <name>Neo4j - Examples</name>
     <description>Neo4j Embedded Examples</description>
@@ -38,12 +38,12 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.neo4j</groupId>
+            <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>neo4j</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
-            <groupId>org.neo4j</groupId>
+            <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>neo4j-slf4j</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
@@ -55,25 +55,25 @@
         </dependency>
 
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-graphviz</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-doc-tools</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>neo4j-cypher-prettifier</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.neo4j.doc</groupId>
+            <groupId>org.graphfoundation.ongdb.doc</groupId>
             <artifactId>test-framework</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
