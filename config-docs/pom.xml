@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-config-docs</artifactId>
+    <artifactId>ongdb-config-docs</artifactId>
     <name>ONgDB - Config Docs Generation</name>
     <description>ONgDB configuration docs generation</description>
 
@@ -34,68 +34,68 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-configuration</artifactId>
+            <artifactId>ongdb-configuration</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.app</groupId>
-            <artifactId>neo4j-server</artifactId>
+            <artifactId>ongdb-server</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-enterprise</artifactId>
+            <artifactId>ongdb-enterprise</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-metrics</artifactId>
+            <artifactId>ongdb-metrics</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-backup</artifactId>
+            <artifactId>ongdb-backup</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-udc</artifactId>
+            <artifactId>ongdb-udc</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cluster</artifactId>
+            <artifactId>ongdb-cluster</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-causal-clustering</artifactId>
+            <artifactId>ongdb-causal-clustering</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-ha</artifactId>
+            <artifactId>ongdb-ha</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-consistency-check</artifactId>
+            <artifactId>ongdb-consistency-check</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.app</groupId>
-            <artifactId>neo4j-server-enterprise</artifactId>
+            <artifactId>ongdb-server-enterprise</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-security-enterprise</artifactId>
+            <artifactId>ongdb-security-enterprise</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-doc-tools</artifactId>
+            <artifactId>ongdb-doc-tools</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>

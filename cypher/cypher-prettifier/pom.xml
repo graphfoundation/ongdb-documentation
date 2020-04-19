@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-cypher-docs-parent</artifactId>
+        <artifactId>ongdb-cypher-docs-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
-    <artifactId>neo4j-cypher-prettifier</artifactId>
+    <artifactId>ongdb-cypher-prettifier</artifactId>
     <name>ONgDB - Cypher prettifier</name>
     <description>Make Cypher queries pretty.</description>
     <packaging>jar</packaging>
@@ -76,19 +76,19 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-util-3.5</artifactId>
+            <artifactId>ongdb-util-3.5</artifactId>
             <version>${neo4j.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-parser-3.5</artifactId>
+            <artifactId>ongdb-parser-3.5</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-util-3.5</artifactId>
+            <artifactId>ongdb-util-3.5</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
     </dependencies>

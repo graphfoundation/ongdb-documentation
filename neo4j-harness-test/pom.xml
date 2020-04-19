@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>org.graphfoundation.ongdb.test</groupId>
-    <artifactId>neo4j-harness-test</artifactId>
+    <artifactId>ongdb-harness-test</artifactId>
     <name>ONgDB - Test Harness Documentation tests</name>
     <description>Tests for Neo4j Test Harness.</description>
     <packaging>jar</packaging>
@@ -60,7 +60,7 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.test</groupId>
-            <artifactId>neo4j-harness</artifactId>
+            <artifactId>ongdb-harness</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>

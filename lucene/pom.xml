@@ -5,25 +5,25 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-lucene-index-docs</artifactId>
+    <artifactId>ongdb-lucene-index-docs</artifactId>
     <name>ONgDB - Lucene Index Docs</name>
     <description>Documentation build for Neo4j Lucene index integration.</description>
 
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-lucene-index</artifactId>
+            <artifactId>ongdb-lucene-index</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-graphviz</artifactId>
+            <artifactId>ongdb-graphviz</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
@@ -35,7 +35,7 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-doc-tools</artifactId>
+            <artifactId>ongdb-doc-tools</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>

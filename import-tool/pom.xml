@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-import-tool-docs</artifactId>
+    <artifactId>ongdb-import-tool-docs</artifactId>
     <name>ONgDB - Import Tool Documentation</name>
     <description>Documentation build for the import tool.</description>
     <packaging>jar</packaging>
@@ -19,14 +19,14 @@
         <!-- Main dependencies -->
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-kernel</artifactId>
+            <artifactId>ongdb-kernel</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
 
         <!-- Test dependencies -->
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-import-tool</artifactId>
+            <artifactId>ongdb-import-tool</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>
@@ -38,7 +38,7 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-dbms</artifactId>
+            <artifactId>ongdb-dbms</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>

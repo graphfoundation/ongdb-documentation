@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>org.graphfoundation.ongdb.examples</groupId>
-    <artifactId>neo4j-server-examples</artifactId>
+    <artifactId>ongdb-server-examples</artifactId>
     <name>ONgDB - Server Examples</name>
     <description>ONgDB Server Plugin Examples</description>
 
@@ -43,7 +43,7 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-graph-algo</artifactId>
+            <artifactId>ongdb-graph-algo</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
@@ -71,7 +71,7 @@
 
         <dependency>
             <groupId>org.graphfoundation.ongdb.test</groupId>
-            <artifactId>neo4j-harness</artifactId>
+            <artifactId>ongdb-harness</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>

@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-doc-tools</artifactId>
+    <artifactId>ongdb-doc-tools</artifactId>
     <name>ONgDB - Documentation Tools</name>
     <description>Tools for building documentation for various Neo4j components.</description>
     <packaging>jar</packaging>
@@ -42,12 +42,12 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-kernel</artifactId>
+            <artifactId>ongdb-kernel</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-configuration</artifactId>
+            <artifactId>ongdb-configuration</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>

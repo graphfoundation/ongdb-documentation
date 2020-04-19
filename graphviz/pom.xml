@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-graphviz</artifactId>
+    <artifactId>ongdb-graphviz</artifactId>
     <name>ONgDB - Graphviz generation</name>
     <description>Utility component to generate Graphviz .dot notation from Neo4j graphs.</description>
 
@@ -43,7 +43,7 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-kernel</artifactId>
+            <artifactId>ongdb-kernel</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>

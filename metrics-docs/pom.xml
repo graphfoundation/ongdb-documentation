@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-metrics-docs</artifactId>
+    <artifactId>ongdb-metrics-docs</artifactId>
     <name>ONgDB - Metrics Kernel Extension docs</name>
     <packaging>jar</packaging>
 
@@ -73,49 +73,49 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-metrics</artifactId>
+            <artifactId>ongdb-metrics</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-ha</artifactId>
+            <artifactId>ongdb-ha</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-causal-clustering</artifactId>
+            <artifactId>ongdb-causal-clustering</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-bolt</artifactId>
+            <artifactId>ongdb-bolt</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-io</artifactId>
+            <artifactId>ongdb-io</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-com</artifactId>
+            <artifactId>ongdb-com</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cluster</artifactId>
+            <artifactId>ongdb-cluster</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cypher</artifactId>
+            <artifactId>ongdb-cypher</artifactId>
             <version>${neo4j.version}</version>
             <scope>provided</scope>
         </dependency>

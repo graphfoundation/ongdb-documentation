@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
         <version>3.6.0-SNAPSHOT</version>
     </parent>
@@ -20,12 +20,12 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-doc-tools</artifactId>
+            <artifactId>ongdb-doc-tools</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-cypher-prettifier</artifactId>
+            <artifactId>ongdb-cypher-prettifier</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>
@@ -35,13 +35,13 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-graphviz</artifactId>
+            <artifactId>ongdb-graphviz</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>org.graphfoundation.ongdb.app</groupId>
-            <artifactId>neo4j-server</artifactId>
+            <artifactId>ongdb-server</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
 

@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-manual-contents</artifactId>
+    <artifactId>ongdb-manual-contents</artifactId>
     <name>ONgDB - Reference Manual Contents</name>
     <description>ONgDB Reference Manual Contents.</description>
     <packaging>pom</packaging>
@@ -35,147 +35,147 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-ha-docs</artifactId>
+            <artifactId>ongdb-ha-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-metrics-docs</artifactId>
+            <artifactId>ongdb-metrics-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-backup-docs</artifactId>
+            <artifactId>ongdb-backup-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-lucene-index-docs</artifactId>
+            <artifactId>ongdb-lucene-index-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-lucene-index-docs</artifactId>
+            <artifactId>ongdb-lucene-index-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-kernel-docs</artifactId>
+            <artifactId>ongdb-kernel-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-kernel-docs</artifactId>
+            <artifactId>ongdb-kernel-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-cypher-docs</artifactId>
+            <artifactId>ongdb-cypher-docs</artifactId>
             <version>${project.version}</version>
             <classifier>sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-cypher-docs</artifactId>
+            <artifactId>ongdb-cypher-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-cypher-docs</artifactId>
+            <artifactId>ongdb-cypher-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.examples</groupId>
-            <artifactId>neo4j-examples</artifactId>
+            <artifactId>ongdb-examples</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.examples</groupId>
-            <artifactId>neo4j-examples</artifactId>
+            <artifactId>ongdb-examples</artifactId>
             <version>${project.version}</version>
             <classifier>sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.examples</groupId>
-            <artifactId>neo4j-examples</artifactId>
+            <artifactId>ongdb-examples</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-server-docs</artifactId>
+            <artifactId>ongdb-server-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-server-docs</artifactId>
+            <artifactId>ongdb-server-docs</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.test</groupId>
-            <artifactId>neo4j-harness-test</artifactId>
+            <artifactId>ongdb-harness-test</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.test</groupId>
-            <artifactId>neo4j-harness-enterprise-test</artifactId>
+            <artifactId>ongdb-harness-enterprise-test</artifactId>
             <version>${project.version}</version>
             <classifier>test-sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.examples</groupId>
-            <artifactId>neo4j-server-examples</artifactId>
+            <artifactId>ongdb-server-examples</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.examples</groupId>
-            <artifactId>neo4j-server-examples</artifactId>
+            <artifactId>ongdb-server-examples</artifactId>
             <version>${project.version}</version>
             <classifier>sources</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-import-tool-docs</artifactId>
+            <artifactId>ongdb-import-tool-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-config-docs</artifactId>
+            <artifactId>ongdb-config-docs</artifactId>
             <version>${project.version}</version>
             <classifier>docs</classifier>
             <scope>provided</scope>

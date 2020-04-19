@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-manual-parent</artifactId>
+        <artifactId>ongdb-manual-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
     <groupId>org.graphfoundation.ongdb.examples</groupId>
-    <artifactId>neo4j-examples</artifactId>
+    <artifactId>ongdb-examples</artifactId>
     <name>ONgDB - Examples</name>
     <description>ONgDB Embedded Examples</description>
 
@@ -44,7 +44,7 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-slf4j</artifactId>
+            <artifactId>ongdb-slf4j</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
 
@@ -56,19 +56,19 @@
 
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-graphviz</artifactId>
+            <artifactId>ongdb-graphviz</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-doc-tools</artifactId>
+            <artifactId>ongdb-doc-tools</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-cypher-prettifier</artifactId>
+            <artifactId>ongdb-cypher-prettifier</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>

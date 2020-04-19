@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.graphfoundation.ongdb.doc</groupId>
-        <artifactId>neo4j-cypher-docs-parent</artifactId>
+        <artifactId>ongdb-cypher-docs-parent</artifactId>
         <version>3.6.0-SNAPSHOT</version>
         <relativePath>..</relativePath>
     </parent>
 
-    <artifactId>neo4j-cypher-docs</artifactId>
+    <artifactId>ongdb-cypher-docs</artifactId>
     <name>ONgDB - Cypher Documentation</name>
     <description>ONgDB query language documentation</description>
     <packaging>jar</packaging>
@@ -70,13 +70,13 @@
         <!-- neo4j-documentation -->
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-doc-tools</artifactId>
+            <artifactId>ongdb-doc-tools</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-cypher-prettifier</artifactId>
+            <artifactId>ongdb-cypher-prettifier</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
@@ -88,7 +88,7 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.doc</groupId>
-            <artifactId>neo4j-graphviz</artifactId>
+            <artifactId>ongdb-graphviz</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
@@ -101,24 +101,24 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-kernel</artifactId>
+            <artifactId>ongdb-kernel</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-graphdb-api</artifactId>
+            <artifactId>ongdb-graphdb-api</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-io</artifactId>
+            <artifactId>ongdb-io</artifactId>
             <version>${neo4j.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-kernel</artifactId>
+            <artifactId>ongdb-kernel</artifactId>
             <version>${neo4j.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
@@ -127,13 +127,13 @@
         <!-- neo4j-cypher -->
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cypher</artifactId>
+            <artifactId>ongdb-cypher</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-enterprise-cypher</artifactId>
+            <artifactId>ongdb-enterprise-cypher</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>
@@ -152,32 +152,32 @@
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cypher</artifactId>
+            <artifactId>ongdb-cypher</artifactId>
             <version>${neo4j.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cypher-runtime-util</artifactId>
+            <artifactId>ongdb-cypher-runtime-util</artifactId>
             <version>${neo4j.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-cypher-runtime-util</artifactId>
+            <artifactId>ongdb-cypher-runtime-util</artifactId>
             <version>${neo4j.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-util-3.5</artifactId>
+            <artifactId>ongdb-util-3.5</artifactId>
             <version>${neo4j.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j-util-3.5</artifactId>
+            <artifactId>ongdb-util-3.5</artifactId>
             <version>${neo4j.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
@@ -229,12 +229,12 @@
                 <dependencies>
                     <dependency>
                         <groupId>org.graphfoundation.ongdb.doc</groupId>
-                        <artifactId>neo4j-graphgist</artifactId>
+                        <artifactId>ongdb-graphgist</artifactId>
                         <version>${project.version}</version>
                     </dependency>
                     <dependency>
                         <groupId>org.graphfoundation.ongdb</groupId>
-                        <artifactId>neo4j-io</artifactId>
+                        <artifactId>ongdb-io</artifactId>
                         <version>${neo4j.version}</version>
                         <type>test-jar</type>
                     </dependency>
