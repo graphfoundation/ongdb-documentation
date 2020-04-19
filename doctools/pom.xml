@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-doc-tools</artifactId>
-    <name>Neo4j - Documentation Tools</name>
+    <name>ONgDB - Documentation Tools</name>
     <description>Tools for building documentation for various Neo4j components.</description>
     <packaging>jar</packaging>
 

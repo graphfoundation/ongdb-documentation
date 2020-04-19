@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>test-framework</artifactId>
-    <name>Neo4j Documentation Test Framework</name>
+    <name>ONgDB Documentation Test Framework</name>
     <description>Test Framework for Neo4j Documentation Tests</description>
 
     <properties>

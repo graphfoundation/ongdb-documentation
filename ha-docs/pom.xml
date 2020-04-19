@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-ha-docs</artifactId>
-    <name>Neo4j - High Availability Docs</name>
+    <name>ONgDB - High Availability Docs</name>
 
     <properties>
         <bundle.namespace>org.neo4j.kernel.ha</bundle.namespace>

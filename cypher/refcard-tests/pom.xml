@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-cypher-refcard-tests</artifactId>
-    <name>Neo4j - Cypher Reference Card Tests</name>
+    <name>ONgDB - Cypher Reference Card Tests</name>
     <description>Test for Reference Card for the Neo4j Cypher Query Language.</description>
     <packaging>jar</packaging>
 

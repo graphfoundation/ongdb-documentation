@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>neo4j-server-docs</artifactId>
-    <name>Neo4j - Server Docs</name>
+    <name>ONgDB - Server Docs</name>
     <description>Documentation for the Neo4j server</description>
 
     <properties>

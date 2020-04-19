@@ -12,7 +12,7 @@
 
     <groupId>org.graphfoundation.ongdb.test</groupId>
     <artifactId>neo4j-harness-test</artifactId>
-    <name>Neo4j - Test Harness Documentation tests</name>
+    <name>ONgDB - Test Harness Documentation tests</name>
     <description>Tests for Neo4j Test Harness.</description>
     <packaging>jar</packaging>
 

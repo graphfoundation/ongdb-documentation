@@ -11,8 +11,8 @@
     </parent>
 
     <artifactId>neo4j-cypher-docs-parent</artifactId>
-    <name>Neo4j - Cypher Documentation Build</name>
-    <description>Neo4j - Cypher Documentation Build</description>
+    <name>ONgDB - Cypher Documentation Build</name>
+    <description>ONgDB - Cypher Documentation Build</description>
     <packaging>pom</packaging>
 
     <properties>

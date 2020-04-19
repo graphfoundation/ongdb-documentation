@@ -11,8 +11,8 @@
     </parent>
 
     <artifactId>neo4j-cypher-docs</artifactId>
-    <name>Neo4j - Cypher Documentation</name>
-    <description>Neo4j query language documentation</description>
+    <name>ONgDB - Cypher Documentation</name>
+    <description>ONgDB query language documentation</description>
     <packaging>jar</packaging>
 
     <properties>

@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-backup-docs</artifactId>
-    <name>Neo4j - Backup Docs</name>
+    <name>ONgDB - Backup Docs</name>
     <description>Documentation build for Neo4j Backup.</description>
 
     <dependencies>

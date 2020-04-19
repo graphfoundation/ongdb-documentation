@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-metrics-docs</artifactId>
-    <name>Neo4j - Metrics Kernel Extension docs</name>
+    <name>ONgDB - Metrics Kernel Extension docs</name>
     <packaging>jar</packaging>
 
     <build>

@@ -11,8 +11,8 @@
     </parent>
 
     <artifactId>neo4j-manual-contents</artifactId>
-    <name>Neo4j - Reference Manual Contents</name>
-    <description>Neo4j Reference Manual Contents.</description>
+    <name>ONgDB - Reference Manual Contents</name>
+    <description>ONgDB Reference Manual Contents.</description>
     <packaging>pom</packaging>
 
     <properties>

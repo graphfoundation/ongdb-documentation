@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>procedure-documentation</artifactId>
-    <name>Neo4j - Procedure Docs Generation</name>
+    <name>ONgDB - Procedure Docs Generation</name>
 
     <properties>
         <generate-procedure-docs-phase>prepare-package</generate-procedure-docs-phase>

@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-kernel-docs</artifactId>
-    <name>Neo4j - Kernel Docs</name>
+    <name>ONgDB - Kernel Docs</name>
     <description>Documentation build for the Neo4j kernel.</description>
 
     <dependencies>

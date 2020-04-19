@@ -12,8 +12,8 @@
 
     <groupId>org.graphfoundation.ongdb.examples</groupId>
     <artifactId>neo4j-server-examples</artifactId>
-    <name>Neo4j - Server Examples</name>
-    <description>Neo4j Server Plugin Examples</description>
+    <name>ONgDB - Server Examples</name>
+    <description>ONgDB Server Plugin Examples</description>
 
     <properties>
         <short-name>neo4j-server-examples</short-name>

@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-lucene-index-docs</artifactId>
-    <name>Neo4j - Lucene Index Docs</name>
+    <name>ONgDB - Lucene Index Docs</name>
     <description>Documentation build for Neo4j Lucene index integration.</description>
 
     <dependencies>

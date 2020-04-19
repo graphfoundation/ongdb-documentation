@@ -10,7 +10,7 @@
         <relativePath>..</relativePath>
     </parent>
     <artifactId>neo4j-cypher-prettifier</artifactId>
-    <name>Neo4j - Cypher prettifier</name>
+    <name>ONgDB - Cypher prettifier</name>
     <description>Make Cypher queries pretty.</description>
     <packaging>jar</packaging>
 

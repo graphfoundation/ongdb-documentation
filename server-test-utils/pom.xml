@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>server-test-utils</artifactId>
-    <name>Neo4j Server Documentation Test Utilities</name>
+    <name>ONgDB Server Documentation Test Utilities</name>
     <description>Utility classes for Neo4j server documentation tests</description>
 
     <properties>

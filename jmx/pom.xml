@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>jmx-documentation</artifactId>
-    <name>Neo4j - JMX Docs Generation</name>
+    <name>ONgDB - JMX Docs Generation</name>
 
     <dependencies>
         <dependency>

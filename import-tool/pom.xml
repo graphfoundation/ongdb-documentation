@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-import-tool-docs</artifactId>
-    <name>Neo4j - Import Tool Documentation</name>
+    <name>ONgDB - Import Tool Documentation</name>
     <description>Documentation build for the import tool.</description>
     <packaging>jar</packaging>
 

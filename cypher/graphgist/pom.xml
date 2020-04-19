@@ -10,7 +10,7 @@
         <relativePath>..</relativePath>
     </parent>
     <artifactId>neo4j-graphgist</artifactId>
-    <name>Neo4j - GraphGist</name>
+    <name>ONgDB - GraphGist</name>
     <description>Cypher tutorial documentation tool.</description>
 
     <properties>

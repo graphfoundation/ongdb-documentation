@@ -11,7 +11,7 @@
     </parent>
 
     <artifactId>neo4j-graphviz</artifactId>
-    <name>Neo4j - Graphviz generation</name>
+    <name>ONgDB - Graphviz generation</name>
     <description>Utility component to generate Graphviz .dot notation from Neo4j graphs.</description>
 
     <properties>
