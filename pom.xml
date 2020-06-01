@@ -11,7 +11,7 @@
     <name>ONgDB - Reference Manual Build</name>
     <description>ONgDB Reference Manual Build.</description>
     <packaging>pom</packaging>
-    <url>https://neo4j.com/</url>
+    <url>https://graphfoundation.org/</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -57,9 +57,9 @@
     </modules>
 
     <scm>
-        <connection>scm:git:git://github.com/neo4j/neo4j-documentation.git</connection>
-        <developerConnection>scm:git:git@github.com:neo4j/neo4j-documentation.git</developerConnection>
-        <url>https://github.com/neo4j/neo4j-documentation</url>
+        <connection>scm:git:git://github.com/graphfoundation/ongdb-documentation.git</connection>
+        <developerConnection>scm:git:git@github.com:graphfoundation/ongdb-documentation.git</developerConnection>
+        <url>https://github.com/graphfoundation/ongdb-documentation</url>
     </scm>
 
     <licenses>
@@ -68,6 +68,41 @@
             <url>http://creativecommons.org/licenses/by-sa/3.0/</url>
         </license>
     </licenses>
+
+    <profiles>
+        <profile>
+            <id>release-public</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-gpg-plugin</artifactId>
+                        <version>1.6</version>
+                        <executions>
+                            <execution>
+                                <id>sign-artifacts</id>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>sign</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <plugin>
+                        <groupId>org.sonatype.plugins</groupId>
+                        <artifactId>nexus-staging-maven-plugin</artifactId>
+                        <version>1.6.8</version>
+                        <extensions>true</extensions>
+                        <configuration>
+                            <serverId>graphfoundation-releases</serverId>
+                            <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                            <skipStagingRepositoryClose>true</skipStagingRepositoryClose>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
 
     <build>
         <pluginManagement>
