@@ -107,7 +107,7 @@ An example of this is `CALL db.index.explicit.searchNodes('my_index','email:me*'
 |  <<functions-tostring, toString()>>   | Function  | Extended | Now also allows temporal values as input (i.e. values of type _Date_, _Time_, _LocalTime_, _DateTime_, _LocalDateTime_ or _Duration_).
 |===
 
-[[cypher-deprecations-additions-removals-3.5]]
+[[cypher-deprecations-additions-removals-3.6]]
 === Version 3.5
 [options="header"]
 |===
