@@ -80,7 +80,7 @@ It can still be used, but doing so will fallback to the Neo4j 3.1 rule planner.
 |===
 | Option         | Description | Default?
 | `planner=rule` | [deprecated]#This will force the query to use the rule planner, and will therefore cause the query to fall back to using Cypher 3.1.#  |
-| `planner=cost` | Neo4j {neo4j-version} uses the cost planner for _all_ queries, and therefore it is not necessary to use this option explicitly. | X
+| `planner=cost` | Neo4j {ongdb-version} uses the cost planner for _all_ queries, and therefore it is not necessary to use this option explicitly. | X
 |===
 
 It is also possible to change the default planner by using the `cypher.planner` configuration setting (see <<operations-manual#config_cypher.planner, Operations Manual -> Configuration Settings>>).

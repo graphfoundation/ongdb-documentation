@@ -49,7 +49,7 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>server-api</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
 
         <dependency>
@@ -61,7 +61,7 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb.test</groupId>
             <artifactId>ongdb-harness</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>test</scope>
         </dependency>
 

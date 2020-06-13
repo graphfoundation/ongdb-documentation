@@ -96,30 +96,30 @@
         <!-- neo4j -->
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j</artifactId>
-            <version>${neo4j.version}</version>
+            <artifactId>ongdb</artifactId>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-kernel</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-graphdb-api</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-io</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-kernel</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
@@ -128,57 +128,57 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cypher</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-enterprise-cypher</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.community</groupId>
             <artifactId>it-test-support</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.community</groupId>
             <artifactId>cypher-it</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cypher</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cypher-runtime-util</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cypher-runtime-util</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-util-3.6</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-util-3.6</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
@@ -235,7 +235,7 @@
                     <dependency>
                         <groupId>org.graphfoundation.ongdb</groupId>
                         <artifactId>ongdb-io</artifactId>
-                        <version>${neo4j.version}</version>
+                        <version>${ongdb.version}</version>
                         <type>test-jar</type>
                     </dependency>
                     <dependency>

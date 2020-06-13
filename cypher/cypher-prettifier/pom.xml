@@ -70,26 +70,26 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb.community</groupId>
             <artifactId>cypher-it</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-util-3.6</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-parser-3.6</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-util-3.6</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
     </dependencies>
 

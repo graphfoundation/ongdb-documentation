@@ -35,62 +35,62 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-configuration</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.app</groupId>
             <artifactId>ongdb-server</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-enterprise</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-metrics</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-backup</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-udc</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cluster</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-causal-clustering</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-ha</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-consistency-check</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb.app</groupId>
             <artifactId>ongdb-server-enterprise</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-security-enterprise</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
 
         <dependency>

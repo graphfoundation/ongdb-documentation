@@ -39,13 +39,13 @@
     <dependencies>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j</artifactId>
-            <version>${neo4j.version}</version>
+            <artifactId>ongdb</artifactId>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-slf4j</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
 
         <dependency>

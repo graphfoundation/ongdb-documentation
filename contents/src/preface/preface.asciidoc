@@ -2,7 +2,7 @@
 [[preface]]
 = Preface
 
-This is the reference manual for Neo4j version {neo4j-version}, authored by the Neo4j Team.
+This is the reference manual for Neo4j version {ongdb-version}, authored by the Neo4j Team.
 
 The main parts of the manual are:
 
@@ -53,7 +53,7 @@ Report a _bug_ or add a _feature request_:
 * https://github.com/neo4j/neo4j/issues
 
 Questions regarding the _documentation:_
-The Neo4j Manual is published online with a comment function, please use that to post any questions or comments regarding the documentation.
+The ONgDB Manual is published online with a comment function, please use that to post any questions or comments regarding the documentation.
 
 If you want to contribute to the Neo4j open source project, see http://neo4j.com/developer/contribute/.
 

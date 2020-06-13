@@ -2,7 +2,7 @@ Neo4j Server Examples
 =====================
  
 Please head over here for the examples:
-http://neo4j.com/docs/java-reference/current/#server-extending
+https://graphfoundation.org/docs/java-reference/current/#server-extending
 
 License(s)
 ----------

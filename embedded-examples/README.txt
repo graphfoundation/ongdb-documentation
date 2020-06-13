@@ -16,7 +16,7 @@ The scripts and related source code are:
 References
 ----------
 
-  * http://neo4j.com/docs/        documentation
+  * https://graphfoundation.org/docs/        documentation
 
 License(s)
 ----------

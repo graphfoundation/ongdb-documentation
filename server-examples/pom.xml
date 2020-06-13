@@ -39,12 +39,12 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>server-api</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-graph-algo</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>com.sun.jersey</groupId>
@@ -72,7 +72,7 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb.test</groupId>
             <artifactId>ongdb-harness</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

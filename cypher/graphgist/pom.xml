@@ -47,18 +47,18 @@
         <!-- neo4j -->
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
-            <artifactId>neo4j</artifactId>
-            <version>${neo4j.version}</version>
+            <artifactId>ongdb</artifactId>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-enterprise-cypher</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
         </dependency>
         <dependency>
             <groupId>org.graphfoundation.ongdb</groupId>
             <artifactId>ongdb-cypher</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <type>test-jar</type>
             <scope>compile</scope>
         </dependency>

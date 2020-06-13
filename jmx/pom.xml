@@ -17,7 +17,7 @@
         <dependency>
             <groupId>org.graphfoundation.ongdb.app</groupId>
             <artifactId>ongdb-server-enterprise</artifactId>
-            <version>${neo4j.version}</version>
+            <version>${ongdb.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>

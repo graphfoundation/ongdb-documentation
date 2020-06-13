@@ -17,7 +17,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <neo4j.version>${project.version}</neo4j.version>
+        <ongdb.version>${project.version}</ongdb.version>
         <generate-config-docs-phase>prepare-package</generate-config-docs-phase>
         <attach-java-test-sources-phase>package</attach-java-test-sources-phase>
         <attach-docs-phase>verify</attach-docs-phase>
